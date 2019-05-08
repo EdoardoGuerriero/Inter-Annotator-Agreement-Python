@@ -8,10 +8,10 @@
   <br>
   Example:<br>
   <br>
-  annotator_A = {'Sentence':[1,2,3], 'Stance':['favor','against','favor'], 'Sentiment':['pos','neg','pos']}<br>
+  annotator_A = {'Sentence':[1, 2, 3], 'Stance':['favor', 'against', 'favor'], 'Sentiment':['pos', 'neg', 'pos']}<br>
   df_A = pd.DataFrame.from_dict(annotator_A)<br>
   <br>
-  annotator_B = {'Sentence':[1,2,3], 'Stance':['against','against','favor'], 'Sentiment':['neg','neg','pos']}<br>
+  annotator_B = {'Sentence':[1, 2, 3], 'Stance':['against', 'against', 'favor'], 'Sentiment':['neg', 'neg', 'pos']}<br>
   df_B = pd.DataFrame.from_dict(annotator_B)<br>
   <br>
   frames = [df_A, df_B]<br>
@@ -31,7 +31,7 @@
 <p>
   References:<br>
   <br>
-  Conger, A. (1980). Integration and generalization of kappas for multiple raters. Psychological Bulletin, 88:322-328<br>
-  Cohen, J. (1960). A coefficient of agreement for nominal scales. Education and Psychological Measurement, 20:249-254<br>
-  Krippendorf, K. (1980). Content Analysis: An Introduction to its Methodology. , Sage Publications<br>
+  Conger, A. (1980). Integration and generalization of kappas for multiple raters. Psychological Bulletin <br>
+  Cohen, J. (1960). A coefficient of agreement for nominal scales. Education and Psychological Measurement <br>
+  Krippendorf, K. (1980). Content Analysis: An Introduction to its Methodology. Sage Publications<br>
 </p>
