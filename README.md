@@ -27,8 +27,9 @@
   IAA.Fleiss_K()<br>
   Out: 0.33333333333333326<br> 
   <br>
-  IAA.Krippendorff_alpha(metric='interval')
+  IAA.Krippendorff_alpha(metric='interval')<br>
   Out: 0.4444444444444444<br>
+  <br>
 </p>
 
 <p>
