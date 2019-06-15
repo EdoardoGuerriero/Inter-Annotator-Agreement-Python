@@ -1,6 +1,6 @@
 # Inter-Annotator-Agreement-Python
 <p>
-  Python class containing different functions to calculate the most frequently used inter annotator agreement scores (Choen, Fleiss, Light, soon also Krippendorf alpha will be added).
+  Python class containing different functions to calculate the most frequently used inter annotator agreement scores (Choen K, Fleiss K, Light K, Krippendorff alpha).
 </p>
 
 <p>
@@ -16,7 +16,7 @@
   <br>
   frames = [df_A, df_B]<br>
   <br>
-  IAA = Inter_Annotator_Agreement(frames, 'Stance', verbose=False)<br>
+  IAA = Inter_Annotator_Agreement(frames=frames, annotation_col='Stance', annotators_names=['A','B'])<br>
   <br>
   IAA.Choen_K()<br>
   Out: 0.39999999999999997<br>
@@ -26,6 +26,9 @@
   <br>
   IAA.Fleiss_K()<br>
   Out: 0.33333333333333326<br> 
+  <br>
+  IAA.Krippendorff_alpha(metric='interval')
+  Out: 0.4444444444444444<br>
 </p>
 
 <p>
@@ -33,5 +36,5 @@
   <br>
   Conger, A. (1980). Integration and generalization of kappas for multiple raters. Psychological Bulletin <br>
   Cohen, J. (1960). A coefficient of agreement for nominal scales. Education and Psychological Measurement <br>
-  Krippendorf, K. (1980). Content Analysis: An Introduction to its Methodology. Sage Publications<br>
+  Krippendorf, K. (2003). Content Analysis: An Introduction to its Methodology. Sage Publications<br>
 </p>
